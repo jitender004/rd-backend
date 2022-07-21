@@ -14,7 +14,6 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 
-
 app.use("/api/products",productController)
 
 app.get('/', (req, res) => res.send('Hello world!'));
